@@ -32,6 +32,10 @@ I have used Junit tests to develop (refractoring and testing continuously) the C
 All the Junit cases passed. 
 
 Then I also tested with the corresponding real URLs after the Spring Boot application starts. <br/>
+
+After you load my project into your Eclipse or STS, then left-click the project, then go down to r"Run As" -> "Spring Boot App",
+then after it starts, click the link below in your localhost:
+
 test case 1: <br/>
 http://localhost:8080/connected?origin=Boston&destination=Newark   <br/>
 test case 2: <br/>
