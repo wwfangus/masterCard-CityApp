@@ -32,11 +32,18 @@ I have used Junit tests to develop (refractoring and testing continuously) the C
 All the Junit cases passed. 
 
 Then I also tested with the corresponding real URLs after the Spring Boot application starts.
+test case 1:
 http://localhost:8080/connected?origin=Boston&destination=Newark
-http://localhost:8080/connected?origin=Boston&destination=Newark
-http://localhost:8080/connected?origin=Boston&destination=Newark
-http://localhost:8080/connected?origin=Boston&destination=Newark
-http://localhost:8080/connected?origin=Boston&destination=Newark
-http://localhost:8080/connected?origin=Boston&destination=Newark
-http://localhost:8080/connected?origin=Boston&destination=Newark
+test case 2:
+http://localhost:8080/connected?origin=Newark&destination=Boston
+test case 3:
+http://localhost:8080/connected?origin=Boston&destination=Philadelphia
+test case 4:
+http://localhost:8080/connected?origin=Philadelphia&destination=Albany
+test case 5:
+http://localhost:8080/connected?origin=Trenton&destination=Albany
+test case 6:
+http://localhost:8080/connected?origin=Trenton&destination=Newark
+test case 4:
+http://localhost:8080/connected?origin=Trenton&destination=Trenton
 
