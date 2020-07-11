@@ -31,19 +31,19 @@ testing. This method is used by all JUnit test cases as well as the real web ser
 I have used Junit tests to develop (refractoring and testing continuously) the CityGraph class, which is the core of the application.
 All the Junit cases passed. 
 
-Then I also tested with the corresponding real URLs after the Spring Boot application starts. When you do want to insert a <br/>
-test case 1: When you do want to insert a <br/>
-http://localhost:8080/connected?origin=Boston&destination=Newark
-test case 2:
-http://localhost:8080/connected?origin=Newark&destination=Boston
-test case 3:
-http://localhost:8080/connected?origin=Boston&destination=Philadelphia
-test case 4:
-http://localhost:8080/connected?origin=Philadelphia&destination=Albany
-test case 5:
-http://localhost:8080/connected?origin=Trenton&destination=Albany
-test case 6:
-http://localhost:8080/connected?origin=Trenton&destination=Newark
-test case 4:
-http://localhost:8080/connected?origin=Trenton&destination=Trenton
+Then I also tested with the corresponding real URLs after the Spring Boot application starts. <br/>
+test case 1: <br/>
+http://localhost:8080/connected?origin=Boston&destination=Newark   <br/>
+test case 2: <br/>
+http://localhost:8080/connected?origin=Newark&destination=Boston  <br/>
+test case 3:  <br/>
+http://localhost:8080/connected?origin=Boston&destination=Philadelphia <br/>
+test case 4:  <br/>
+http://localhost:8080/connected?origin=Philadelphia&destination=Albany  <br/>
+test case 5: <br/>
+http://localhost:8080/connected?origin=Trenton&destination=Albany  <br/>
+test case 6: <br/>
+http://localhost:8080/connected?origin=Trenton&destination=Newark  <br/>
+test case 4:<br/>
+http://localhost:8080/connected?origin=Trenton&destination=Trenton<br/>
 
