@@ -5,10 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
  
 @SpringBootApplication
-public class SpringBootApp {
+public class CityGraphApp {
  
   public static void main(String[] args) {
-    SpringApplication.run(SpringBootApp.class, args);
+    SpringApplication.run(CityGraphApp.class, args);
   }
  
 }

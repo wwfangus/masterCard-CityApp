@@ -38,8 +38,8 @@ then after it starts, click the link below in your localhost:
 
 test case 1: <br/>
 http://localhost:8080/connected?origin=Boston&destination=Newark   <br/>
-test case 2: <br/>
-http://localhost:8080/connected?origin=Newark&destination=Boston  <br/>
+test case 2: test lower case first char <br/>
+http://localhost:8080/connected?origin=newark&destination=boston  <br/>
 test case 3:  <br/>
 http://localhost:8080/connected?origin=Boston&destination=Philadelphia <br/>
 test case 4:  <br/>
@@ -48,6 +48,8 @@ test case 5: <br/>
 http://localhost:8080/connected?origin=Trenton&destination=Albany  <br/>
 test case 6: <br/>
 http://localhost:8080/connected?origin=Trenton&destination=Newark  <br/>
-test case 4:<br/>
+test case 7:<br/>
 http://localhost:8080/connected?origin=Trenton&destination=Trenton<br/>
+test case 8:<br/>
+http://localhost:8080/connected?origin=NotCity&destination=Trenton<br/>
 
